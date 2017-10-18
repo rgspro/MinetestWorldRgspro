@@ -10,6 +10,8 @@ Here are the files for my Minetest world. You can see the entire world on my vid
 
 The files contain the world files and texture pack
 
+******* The "map.sqlite.zip" must be downloaded from the files separetly from the main download.  The file is stored differently because of its size.  I am working on a solution for this. ************
+
 Basic instructions for use.
 
 Unzip the downloaded zip file
