@@ -18,7 +18,7 @@ Download the zip file from the repository
 
 Go into the world folder on the code page to download and unzip the "map.sqlite.zip" file
 
-**The map.sqlite.zip file in the downloaded world zip file is just a pointer to the large file storage LFS file and has to be downloaded separetly. **
+**The map.sqlite.zip file in the downloaded world zip file is just a pointer to the large file storage LFS file and has to be downloaded separately. **
 
 Unzip the downloaded zip file
 
