@@ -14,9 +14,13 @@ The files contain the world files and texture pack
 
 Basic instructions for use.
 
-Unzip the downloaded zip file
+Download the zip file from the repository
 
-Go into the world folder and unzip the "map.sqlite.zip" file
+Go into the world folder on the code page to download and unzip the "map.sqlite.zip" file
+
+**The map.sqlite.zip file in the downloaded world zip file is just a pointer to the large file storage LFS file and has to be downloaded separetly. **
+
+Unzip the downloaded zip file
 
 Go into the texture pack folder and copy the folder "rgs1" to your Minetest Textures folder
 
