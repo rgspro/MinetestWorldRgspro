@@ -1,0 +1,1 @@
+return {["waypoints"] = {{["active"] = false, ["name"] = "car in water", ["world_pos"] = {["y"] = 5, ["x"] = 68, ["z"] = 242}}, {["active"] = false, ["display_pos"] = true, ["world_pos"] = {["y"] = 5, ["x"] = 68, ["z"] = 242}}, ["selected"] = 1}}

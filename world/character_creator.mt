@@ -1,0 +1,1 @@
+return {["singleplayer"] = {["hair"] = 8, ["width"] = 1, ["shoes"] = 1, ["eyes"] = 5, ["tshirt"] = 7, ["skin"] = 4, ["pants"] = 2, ["hair_style"] = 4, ["face"] = 4, ["height"] = 1, ["gender"] = "Male"}}

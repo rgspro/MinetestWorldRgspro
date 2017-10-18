@@ -1,0 +1,219 @@
+breath = 11
+extended_attributes = """
+null
+
+"""
+hp = 18
+name = rgspro
+pitch = 6.49
+position = (173.09,225,3888.2)
+version = 1
+yaw = 240.85
+PlayerArgsEnd
+List main 32
+Width 0
+Empty
+Empty
+Empty
+Item technic:slab_concrete_2
+Item technic:slab_concrete_quarter
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Item mobs_fish:clownfish 99
+Item technic:concrete 98
+Item worldedit:wand
+Item screwdriver:screwdriver
+Item homedecor:glass_table_large
+Item lpanes:pane_clear 64
+Item prefab_redo:concrete_wall 99
+Item default:sign_wall_steel 99
+Item bakedclay:slab_baked_clay_dark_grey_1 2
+Item homedecor:shrubbery_large_green 96
+Item building_blocks:slab_grate_1
+Item building_blocks:fakegrass 99
+Item stairs:slab_colored_clay_dark_grey 99
+Item homedecor:pole_wrought_iron 99
+Item wool:slab_dark_grey
+Item technic:slab_blast_resistant_concrete
+Item wool:panel_dark_grey_2
+Item homedecor:fence_wrought_iron 99
+EndInventoryList
+List craft 9
+Width 3
+Item building_blocks:grate 98
+Item technic:slab_blast_resistant_concrete_three_quarter
+Item moretrees:slab_apple_tree_planks_1
+Item bobblocks:pole 99
+Item moreblocks:slab_coal_stone_1
+Item technic:concrete_post 99
+Item technic:blast_resistant_concrete 91
+Item default:grass_1
+Item my_castle_doors:door8_locked
+EndInventoryList
+List craftpreview 1
+Width 0
+Empty
+EndInventoryList
+List craftresult 1
+Width 0
+Empty
+EndInventoryList
+List bag1 1
+Width 0
+Item unified_inventory:bag_large
+EndInventoryList
+List bag2 1
+Width 0
+Item unified_inventory:bag_large
+EndInventoryList
+List bag3 1
+Width 0
+Item unified_inventory:bag_large
+EndInventoryList
+List bag4 1
+Width 0
+Item unified_inventory:bag_large
+EndInventoryList
+List armor 6
+Width 0
+Item 3d_armor:helmet_diamond 1 700 "\u0001\u0002\u0003"
+Item 3d_armor:boots_diamond 1 700 "\u0001\u0002\u0003"
+Item 3d_armor:leggings_diamond 1 700 "\u0001\u0002\u0003"
+Item 3d_armor:chestplate_diamond 1 700 "\u0001\u0002\u0003"
+Empty
+Empty
+EndInventoryList
+List bag1contents 24
+Width 0
+Item default:junglegrass 99
+Item bushes:bushbranches3 99
+Item woodsoils:dirt_with_leaves_1 99
+Item bushes:BushLeaves2 11
+Item bakedclay:lazarus 99
+Item woodsoils:grass_with_leaves_2 99
+Item moretrees:beech_trunk
+Item my_hidden_doors:hidden_doorstone
+Item mydeck:deck_boards 3
+Item bakedclay:delphinium 99
+Item dryplants:juncus 97
+Item woodsoils:dirt_with_leaves_2 98
+Item homedecor:shrubbery_large_green 99
+Item flowers:dandelion_white 99
+Item fake_fire:embers 97
+Item moretrees:beech_sapling 99
+Item bedrock:deepstone 99
+Item moretrees:apple_tree_trunk
+Item default:grass_1 6
+Item dryplants:reedmace_height_3_spikes 99
+Item flowers:viola 99
+Item default:papyrus 97
+Item fake_fire:fancy_fire 97
+Item homedecor:shrubbery_green 99
+EndInventoryList
+List bag2contents 24
+Width 0
+Item castle_tapestries:tapestry_very_long 99
+Item castle_tapestries:tapestry_long 99
+Item castle_tapestries:tapestry 99
+Item technic:slab_stainless_steel_block_1
+Item moretrees:slab_willow_planks_1
+Item moreblocks:slab_desert_stonebrick_1
+Item moretrees:slab_spruce_planks_1
+Item moreblocks:slab_coal_stone_1
+Item moretrees:slab_oak_trunk_1 99
+Item moretrees:slab_sequoia_trunk_1 99
+Item moretrees:slab_poplar_trunk_1 49
+Item moretrees:slab_beech_trunk_1
+Item moreblocks:slab_iron_stone_bricks_1
+Item moretrees:slab_cedar_trunk_1 99
+Item moreblocks:slab_stone_block_2
+Item default:stone_technic_cnc_sphere
+Item moreblocks:slab_aspen_tree_1 50
+Item moreblocks:slab_pine_tree_1 99
+Item moretrees:apple_tree_trunk 99
+Item moretrees:slab_apple_tree_trunk_1
+Item moretrees:slab_birch_planks_1
+Item moretrees:slab_fir_trunk_1 99
+Item moreblocks:slab_desert_stonebrick_1
+Item building_blocks:slab_grate 51
+EndInventoryList
+List bag3contents 24
+Width 0
+Empty
+Item homedecor:glass_table_large 98
+Item moreblocks:slab_grey_bricks_1
+Item chains:chain 99
+Item wool:slab_white_three_quarter 50
+Item homedecor:ceiling_lamp 99
+Item wool:panel_grey_4 99
+Item wool:panel_black_2
+Item homedecor:painting_8 99
+Item homedecor:painting_19 99
+Item castle_lighting:light 99
+Item moretrees:apple_tree_trunk 99
+Item lpanes:pane_black 64
+Item moreblocks:slab_coal_stone_1
+Item mydeck:deck_boards
+Item moretrees:slab_spruce_planks_1
+Item building_blocks:fakegrass 99
+Item homedecor:painting_17 99
+Item moreblocks:grey_bricks 98
+Item hopper:hopper 99
+Item moreblocks:slab_coal_stone_bricks_1
+Item technic:slab_stainless_steel_block_1
+Item moreblocks:panel_desert_stone_block_1
+Item default:dirt_with_grass 99
+EndInventoryList
+List bag4contents 24
+Width 0
+Item wool:slab_brown_1 99
+Item wool:slab_dark_grey_2
+Item wool:slab_red_1 99
+Item wool:slab_grey_1
+Item wool:slab_magenta_1 99
+Item wool:slab_blue_1 99
+Item wool:panel_black_4 52
+Item wool:panel_dark_grey_4
+Item wool:slab_cyan_1 99
+Item wool:slab_yellow_1 50
+Item wool:slab_green_1 98
+Item wool:slab_white_1
+Item homedecor:door_glass_left 84
+Item technic:panel_blast_resistant_concrete_1
+Item wool:panel_white_1
+Item wool:panel_black 2
+Item technic:carbon_steel_block 99
+Item moretrees:panel_apple_tree_planks_1
+Item wool:slab_orange_1 99
+Item moretrees:panel_sequoia_planks_1
+Item wool:panel_grey_2
+Item wool:slab_black
+Item wool:slab_black_1
+Item wool:slab_dark_grey_1
+EndInventoryList
+List customer_gives 6
+Width 0
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+EndInventoryList
+List customer_gets 6
+Width 0
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+EndInventoryList
+EndInventory

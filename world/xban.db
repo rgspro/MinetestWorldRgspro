@@ -1,0 +1,28 @@
+return {
+	[1] = {
+		["names"] = {
+			["rgspro"] = true,
+			["singleplayer"] = true,
+			["73.8.179.249"] = true,
+			["127.0.0.1"] = true,
+			["rgspro7878"] = true,
+		},
+		["record"] = {
+
+		},
+		["banned"] = false,
+		["last_seen"] = 1508222452,
+	},
+	[2] = {
+		["names"] = {
+			["192.168.0.109"] = true,
+			["rgspro1"] = true,
+		},
+		["record"] = {
+
+		},
+		["last_seen"] = 1491931803,
+		["banned"] = false,
+	},
+	["timestamp"] = 1508240495,
+}

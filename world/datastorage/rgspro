@@ -1,0 +1,1 @@
+return {["waypoints"] = {{["display_pos"] = false, ["active"] = false}, {["active"] = false}, {["active"] = false, ["display_pos"] = true, ["world_pos"] = {["y"] = 22, ["x"] = -35, ["z"] = 316}}, ["selected"] = 1}}

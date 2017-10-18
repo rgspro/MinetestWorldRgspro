@@ -1,0 +1,61 @@
+return { { ["y"] = 2, ["x"] = 0, ["name"] = "mesecons_button:button_off", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 1, ["param1"] = 79 }, { ["y"] = 0, ["x"] = 1, ["name"] = "default:glass", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 93 }, { ["y"] = 0, ["x"] = 1, ["name"] = "default:sand", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 0, ["x"] = 1, ["name"] = "default:cobble", ["z"] = 3, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 1, ["x"] = 1, ["name"] = "mesecons_lightstone:lightstone_green_off", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 1, ["x"] = 1, ["name"] = "mesecons_lightstone:lightstone_green_off", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 1, ["x"] = 1, ["name"] = "mesecons_lightstone:lightstone_green_off", ["z"] = 3, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 2, ["x"] = 1, ["name"] = "mesecons_luacontroller:luacontroller0000", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = { ["lc_memory"] = "return {  }", ["heat"] = "-1", ["formspec"] = "size[10,8]background[-0.2,-0.25;10.4,8.75;jeija_luac_background.png]textarea[0.2,0.6;10.2,5;code;;if event.type == \"on\" and event.pin == \"A\" then\
+  digiline_send(\"probe\")\
+end]image_button[3.75,6;2.5,1;jeija_luac_runbutton.png;program;]image_button_exit[9.72,-0.25;0.425,0.4;jeija_close_window.png;exit;]label[0.1,5;]", ["code"] = "if event.type == \"on\" and event.pin == \"A\" then\
+  digiline_send(\"probe\")\
+end" } }, ["param2"] = 0, ["param1"] = 95 }, { ["y"] = 1, ["x"] = 2, ["name"] = "mesecons_extrawires:corner_off", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 1, ["param1"] = 95 }, { ["y"] = 1, ["x"] = 2, ["name"] = "mesecons_luacontroller:luacontroller0000", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = { ["lc_memory"] = "return {  }", ["heat"] = "-1", ["formspec"] = "size[10,8]background[-0.2,-0.25;10.4,8.75;jeija_luac_background.png]textarea[0.2,0.6;10.2,5;code;;if event.channel == \"type\" then\
+  if event.msg == 1 then\
+    port.a, port.b, port.d = false, true, false\
+  elseif event.msg == 2 then\
+    port.a, port.b, port.d = true, false, false\
+  else\
+    port.a, port.b, port.d = false, false, true\
+  end\
+end]image_button[3.75,6;2.5,1;jeija_luac_runbutton.png;program;]image_button_exit[9.72,-0.25;0.425,0.4;jeija_close_window.png;exit;]label[0.1,5;]", ["code"] = "if event.channel == \"type\" then\
+  if event.msg == 1 then\
+    port.a, port.b, port.d = false, true, false\
+  elseif event.msg == 2 then\
+    port.a, port.b, port.d = true, false, false\
+  else\
+    port.a, port.b, port.d = false, false, true\
+  end\
+end" } }, ["param2"] = 0, ["param1"] = 111 }, { ["y"] = 1, ["x"] = 2, ["name"] = "mesecons_extrawires:corner_off", ["z"] = 3, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 95 }, { ["y"] = 2, ["x"] = 2, ["name"] = "digilines:wire_std_10100000", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 111 }, { ["y"] = 2, ["x"] = 3, ["name"] = "digilines:wire_std_10101000", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 127 }, { ["y"] = 3, ["x"] = 3, ["name"] = "mesecons_extrawires:vertical_bottom_off", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 143 }, { ["y"] = 4, ["x"] = 3, ["name"] = "mesecons_extrawires:corner_off", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 2, ["param1"] = 111 }, { ["y"] = 4, ["x"] = 3, ["name"] = "mesecons_extrawires:vertical_top_off", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 127 }, { ["y"] = 0, ["x"] = 4, ["name"] = "mesecons:wire_11001000_on", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 141 }, { ["y"] = 0, ["x"] = 4, ["name"] = "mesecons_insulated:insulated_on", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 1, ["param1"] = 159 }, { ["y"] = 0, ["x"] = 4, ["name"] = "mesecons_extrawires:vertical_bottom_on", ["z"] = 3, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 143 }, { ["y"] = 1, ["x"] = 4, ["name"] = "default:steelblock", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 1, ["x"] = 4, ["name"] = "mesecons_extrawires:vertical_on", ["z"] = 3, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 127 }, { ["y"] = 2, ["x"] = 4, ["name"] = "default:steelblock", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 2, ["x"] = 4, ["name"] = "mesecons_extrawires:vertical_on", ["z"] = 3, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 127 }, { ["y"] = 3, ["x"] = 4, ["name"] = "mesecons:wire_11000000_on", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 143 }, { ["y"] = 3, ["x"] = 4, ["name"] = "mesecons_luacontroller:luacontroller0000", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = { ["lc_memory"] = "return {  }", ["heat"] = "-1", ["formspec"] = "size[10,8]background[-0.2,-0.25;10.4,8.75;jeija_luac_background.png]textarea[0.2,0.6;10.2,5;code;;if event.type == \"digiline\" and event.channel == \"probe\" then\
+  port.c = true\
+  interrupt(0.3, \"pull1\")\
+elseif event.iid == \"pull1\" then\
+  port.c = false\
+  interrupt(1, \"test\")\
+elseif event.iid == \"test\" then\
+  if not pin.d then\
+    digiline_send(\"type\", 1)\
+  elseif not pin.b then\
+    digiline_send(\"type\", 2)\
+  else\
+    digiline_send(\"type\", 3)\
+  end\
+  interrupt(0.3, \"push2\")\
+elseif event.iid == \"push2\" then\
+  port.a = true\
+  interrupt(0.3, \"pull2\")\
+elseif event.iid == \"pull2\" then\
+  port.a = false\
+end]image_button[3.75,6;2.5,1;jeija_luac_runbutton.png;program;]image_button_exit[9.72,-0.25;0.425,0.4;jeija_close_window.png;exit;]label[0.1,5;]", ["code"] = "if event.type == \"digiline\" and event.channel == \"probe\" then\
+  port.c = true\
+  interrupt(0.3, \"pull1\")\
+elseif event.iid == \"pull1\" then\
+  port.c = false\
+  interrupt(1, \"test\")\
+elseif event.iid == \"test\" then\
+  if not pin.d then\
+    digiline_send(\"type\", 1)\
+  elseif not pin.b then\
+    digiline_send(\"type\", 2)\
+  else\
+    digiline_send(\"type\", 3)\
+  end\
+  interrupt(0.3, \"push2\")\
+elseif event.iid == \"push2\" then\
+  port.a = true\
+  interrupt(0.3, \"pull2\")\
+elseif event.iid == \"pull2\" then\
+  port.a = false\
+end" } }, ["param2"] = 0, ["param1"] = 159 }, { ["y"] = 3, ["x"] = 4, ["name"] = "mesecons_extrawires:vertical_top_on", ["z"] = 3, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 143 }, { ["y"] = 4, ["x"] = 4, ["name"] = "mesecons_insulated:insulated_off", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 2, ["param1"] = 127 }, { ["y"] = 0, ["x"] = 5, ["name"] = "default:steelblock", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 1, ["x"] = 5, ["name"] = "default:steelblock", ["z"] = 0, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 1, ["x"] = 5, ["name"] = "mesecons_solarpanel:solar_panel_on", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 1, ["param1"] = 204 }, { ["y"] = 1, ["x"] = 5, ["name"] = "default:steelblock", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 2, ["x"] = 5, ["name"] = "default:steelblock", ["z"] = 0, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 2, ["x"] = 5, ["name"] = "mesecons_solarpanel:solar_panel_on", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 1, ["param1"] = 204 }, { ["y"] = 2, ["x"] = 5, ["name"] = "default:steelblock", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 2, ["x"] = 5, ["name"] = "mesecons:wire_10001000_off", ["z"] = 3, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 143 }, { ["y"] = 3, ["x"] = 5, ["name"] = "default:steelblock", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 3, ["x"] = 5, ["name"] = "mesecons_extrawires:corner_off", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 1, ["param1"] = 175 }, { ["y"] = 3, ["x"] = 5, ["name"] = "mesecons_extrawires:corner_off", ["z"] = 3, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 3, ["param1"] = 159 }, { ["y"] = 4, ["x"] = 5, ["name"] = "mesecons_insulated:insulated_off", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 143 }, { ["y"] = 0, ["x"] = 6, ["name"] = "default:steelblock", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 1, ["x"] = 6, ["name"] = "default:glass", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 207 }, { ["y"] = 1, ["x"] = 6, ["name"] = "mesecons_pistons:piston_sticky_off", ["z"] = 3, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 2, ["x"] = 6, ["name"] = "mesecons_pistons:piston_normal_off", ["z"] = 3, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 3, ["x"] = 6, ["name"] = "default:glass", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 205 }, { ["y"] = 3, ["x"] = 6, ["name"] = "mesecons:wire_00100000_off", ["z"] = 3, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 175 }, { ["y"] = 4, ["x"] = 6, ["name"] = "mesecons_pistons:piston_down_sticky_off", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 0 }, { ["y"] = 1, ["x"] = 7, ["name"] = "mesecons_lamp:lamp_on", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 1, ["param1"] = 15 }, { ["y"] = 1, ["x"] = 7, ["name"] = "mesecons_powerplant:power_plant", ["z"] = 2, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 0, ["param1"] = 221 }, { ["y"] = 2, ["x"] = 7, ["name"] = "mesecons_lamp:lamp_on", ["z"] = 1, ["meta"] = { ["inventory"] = {  }, ["fields"] = {  } }, ["param2"] = 1, ["param1"] = 15 } }
